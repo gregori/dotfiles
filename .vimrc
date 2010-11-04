@@ -88,11 +88,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <leader>w <C-w>v<C-w>l
 
-" Disable F1
-set fuoptions=maxvert,maxhorz
-inoremap <F1> <ESC>:set invfullscreen<CR>a
-nnoremap <F1> :set invfullscreen<CR>
-vnoremap <F1> :set invfullscreen<CR>
 
 " Folding
 set foldlevelstart=0
@@ -183,10 +178,15 @@ if has('gui_running')
     set go-=r
     set go-=R
 
-"    if has('gui_macvim')
+    if has('gui_macvim')
+    " Disable F1
+    set fuoptions=maxvert,maxhorz
+    inoremap <F1> <ESC>:set invfullscreen<CR>a
+    nnoremap <F1> :set invfullscreen<CR>
+    vnoremap <F1> :set invfullscreen<CR>
 "        macmenu &File.New\ Tab key=<nop>
 "        map <leader>t <Plug>PeepOpen
-"    end
+    end
 
     let g:sparkupExecuteMapping = '<D-e>'
 
