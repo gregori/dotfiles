@@ -160,7 +160,7 @@ nnoremap _pd :set ft=python.django<CR>
 au FocusLost * :wa
 
 " Statusline
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [BRANCH=%{fugitive#statusline()}]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 
 " Show syntax highlighting groups for word under cursor
 nmap <C-S> :call SynStack()<CR>

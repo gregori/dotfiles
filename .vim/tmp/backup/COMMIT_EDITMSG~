@@ -1,0 +1,34 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .vim/..VimballRecord.un~
+#	new file:   .vim/.VimballRecord
+#	new file:   .vim/.netrwhist
+#	new file:   .vim/autoload/.rainbow_parenthsis.vim.un~
+#	new file:   .vim/autoload/rainbow_parenthsis.vim
+#	new file:   .vim/colors/molokai.vim
+#	new file:   .vim/doc/rainbow_parenthsis.txt
+#	new file:   .vim/doc/tags
+#	new file:   .vim/fugitive.txt
+#	new file:   .vim/fugitive.vim
+#	new file:   .vim/html/sparkup.py
+#	new file:   .vim/html/sparkup.vim
+#	new file:   .vim/plugin/.rainbow_parenthsis.vim.un~
+#	new file:   .vim/plugin/rainbow_parenthsis.vim
+#	new file:   .vim/rainbow_parenthsis_options.vim
+#	new file:   .vim/syntax/.django.vim.un~
+#	new file:   .vim/syntax/.less.vim.un~
+#	new file:   .vim/syntax/django.vim
+#	new file:   .vim/syntax/less.vim
+#	new file:   .vim/syntax/python.vim
+#	new file:   .vim/tmp/backup/.vimrc~
+#	new file:   .vim/tmp/backup/rainbow_parenthsis.vim~
+#	new file:   .vimrc
+#
