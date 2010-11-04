@@ -1,1 +1,3 @@
 ..*
+.vim/tmp/backup/*
+.vim/tmp/swap/*
