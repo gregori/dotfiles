@@ -1,34 +1,24 @@
+Merge branch 'master' of github.com:gregori/dotfiles
+
+* 'master' of github.com:gregori/dotfiles:
+  Added Swap dir
+#
+# It looks like you may be committing a MERGE.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+#
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
-#
-# Initial commit
-#
 # Changes to be committed:
-#   (use "git rm --cached <file>..." to unstage)
 #
-#	new file:   .vim/..VimballRecord.un~
-#	new file:   .vim/.VimballRecord
-#	new file:   .vim/.netrwhist
-#	new file:   .vim/autoload/.rainbow_parenthsis.vim.un~
-#	new file:   .vim/autoload/rainbow_parenthsis.vim
-#	new file:   .vim/colors/molokai.vim
-#	new file:   .vim/doc/rainbow_parenthsis.txt
-#	new file:   .vim/doc/tags
-#	new file:   .vim/fugitive.txt
-#	new file:   .vim/fugitive.vim
-#	new file:   .vim/html/sparkup.py
-#	new file:   .vim/html/sparkup.vim
-#	new file:   .vim/plugin/.rainbow_parenthsis.vim.un~
-#	new file:   .vim/plugin/rainbow_parenthsis.vim
-#	new file:   .vim/rainbow_parenthsis_options.vim
-#	new file:   .vim/syntax/.django.vim.un~
-#	new file:   .vim/syntax/.less.vim.un~
-#	new file:   .vim/syntax/django.vim
-#	new file:   .vim/syntax/less.vim
-#	new file:   .vim/syntax/python.vim
-#	new file:   .vim/tmp/backup/.vimrc~
-#	new file:   .vim/tmp/backup/rainbow_parenthsis.vim~
-#	new file:   .vimrc
+#	modified:   .vimrc
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .vim/tmp/backup/COMMIT_EDITMSG~
 #
