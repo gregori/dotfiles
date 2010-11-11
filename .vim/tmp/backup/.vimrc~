@@ -168,7 +168,6 @@ endfunc
 
 
 if has('gui_running')
-    set guifont=Menlo:h12
     colorscheme molokai
     set background=dark
 
@@ -179,11 +178,12 @@ if has('gui_running')
     set go-=R
 
     if has('gui_macvim')
-    " Disable F1
-    set fuoptions=maxvert,maxhorz
-    inoremap <F1> <ESC>:set invfullscreen<CR>a
-    nnoremap <F1> :set invfullscreen<CR>
-    vnoremap <F1> :set invfullscreen<CR>
+        set guifont=Menlo:h12
+        " Disable F1
+        set fuoptions=maxvert,maxhorz
+        inoremap <F1> <ESC>:set invfullscreen<CR>a
+        nnoremap <F1> :set invfullscreen<CR>
+        vnoremap <F1> :set invfullscreen<CR>
 "        macmenu &File.New\ Tab key=<nop>
 "        map <leader>t <Plug>PeepOpen
     end

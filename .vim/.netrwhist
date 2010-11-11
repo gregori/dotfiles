@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/rodrigo/.vim/plugin'
+let g:netrw_dirhist_2='scp://u35444@pmj-webdev01/./projetos/'
+let g:netrw_dirhist_3='scp://u35444@pmj-webdev01/./projetos/django/'
+let g:netrw_dirhist_4='scp://u35444@pmj-webdev01/./projetos/django/portal/'
+let g:netrw_dirhist_5='scp://u35444@pmj-webdev01/./'
+let g:netrw_dirhist_6='scp://u35444@pmj-webdev01/./projetos/'
+let g:netrw_dirhist_7='scp://u35444@pmj-webdev01/./projetos/django/'
+let g:netrw_dirhist_8='scp://u35444@pmj-webdev01/./projetos/django/portal/'

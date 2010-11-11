@@ -67,6 +67,11 @@ syntax on
 set background=dark
 colorscheme delek
 
+" NERD Tree
+map <F2> :NERDTreeToggle<cr>
+let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
+
+
 " Use the damn hjkl keys
 nnoremap <up> <nop>
 nnoremap <down> <nop>

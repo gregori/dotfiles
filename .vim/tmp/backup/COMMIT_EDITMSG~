@@ -1,17 +1,19 @@
+Merge branch 'master' of github.com:gregori/dotfiles
+
+* 'master' of github.com:gregori/dotfiles:
+  Corrigida fonte no .vimrc
+#
+# It looks like you may be committing a MERGE.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+#
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
 # Changes to be committed:
-#   (use "git reset HEAD <file>..." to unstage)
 #
-#	deleted:    ..vimrc.un~
-#	new file:   .gitignore
-#	modified:   .vim/tmp/backup/COMMIT_EDITMSG~
-#
-# Changed but not updated:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   .vim/tmp/backup/COMMIT_EDITMSG~
+#	modified:   .vim/tmp/backup/.vimrc~
+#	modified:   .vimrc
 #
