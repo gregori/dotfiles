@@ -1,0 +1,103 @@
+set number
+map <C-F11> :set nu!<cr>
+imap <C-F11> <Esc>:set nu!<cr>
+
+set showmode
+set autoindent
+
+set pastetoggle=<F12>
+set ruler
+set autoread
+
+set ts=4
+set expandtab
+set sw=4
+
+set sm
+
+set showcmd
+
+filetype on
+filetype plugin on
+filetype indent on
+
+set report=0
+set backspace=eol,start,indent
+set softtabstop=4
+
+set noerrorbells
+
+set bk
+set backupdir=~/.vim/.backup/
+
+set statusline=%<%F%h%m%r%h%w%y\ ft:%{&ft}\ ff:%{&ff}\
+               \Modificado:\ %{strftime(\"%c\",getftime(expand(\"%:p\")))}
+               \%=\ coluna:%04v\ linha:%04l\
+               \total:%04L\ hex:%03.3B\ ascii:%03.3b\ %03P\ 
+
+set title
+set wildignore=*.o,*.obj,*.bak,*.exe,*.dll,*.com,*.class,*.au,*.wav,*.ps,\
+              \*.avi,*.wmv,*.flv,*.djvu,*.pdf,*.chm,*.dvi,*.svn/,*~
+
+set cedit=<Esc>
+
+set hi=5000
+
+set titlelen=78
+
+set titlestring=%<%F%h%m%r%h%w\ \ \ \ \ \ coluna:%04v\ \ \
+                \ linha:%04l\ de\ %04L\ \ \ \ %03P\ 
+
+set wm=10
+
+set nomodeline
+set nocompatible
+
+syntax on
+set background=dark
+
+map  <S-F6> <ESC>:set background=light<CR>
+map  <C-S-F6> <ESC>:set background=dark<CR>
+
+" ----------------------------------------------------------------------------
+" Função para trocar o tema de cores
+" A primeira linha refere-se ao esquema padrão
+" ----------------------------------------------------------------------------
+   colorscheme evening
+   function! <SID>SwitchColorSchemes()
+    if g:colors_name == 'evening'
+     colorscheme blue
+    elseif g:colors_name == 'blue'
+     colorscheme darkblue
+    elseif g:colors_name == 'darkblue'
+     colorscheme default
+    elseif g:colors_name == 'default'
+     colorscheme delek
+    elseif g:colors_name == 'delek'
+     colorscheme elflord
+    elseif g:colors_name == 'elflord'
+     colorscheme desert
+    elseif g:colors_name == 'desert'
+     colorscheme koehler
+    elseif g:colors_name == 'koehler'
+     colorscheme morning
+    elseif g:colors_name == 'morning'
+     set background=dark
+    colorscheme evening
+    endif
+   endfunction
+   map <F6> :call <SID>SwitchColorSchemes()<CR>:echo g:colors_name<CR>
+
+" ----------------------------------------------------------------------------
+"  Cor da numeração lateral
+" ----------------------------------------------------------------------------
+"  hi LineNr     guifg=pink     ctermfg=lightMagenta
+   hi LineNr     guifg=green    ctermfg=lightGreen
+
+set cursorline
+set hlsearch
+set incsearch
+
+iab iostream    #include <iostream>
+iab usingstd    using namespace std;
+ 
